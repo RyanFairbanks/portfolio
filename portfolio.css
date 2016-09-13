@@ -1,0 +1,78 @@
+img {
+	width: 400px;
+	height: 400px;
+	border: green solid 10px;
+}
+
+h1 {
+	position: fixed;
+	margin: -7px auto;
+}
+
+h2 {
+	text-align: center;
+}
+
+h3 {
+	border: green dashed;
+	padding: 5px;
+}
+
+body {
+	background-image: url("http://www.planwallpaper.com/static/images/518164-backgrounds.jpg");
+}
+
+.fade
+{
+	opacity: 0.5;
+}	
+
+.fade:hover
+{
+	opacity: 1;
+}
+
+.circle:hover
+{
+    border-radius:50%;
+}
+
+.color:hover
+{
+	color: green;
+}
+
+@media screen and (min-width: 701px) {
+  	nav {
+    float: left;
+    width: 25%;
+  }
+  section {
+    margin-left: 25%;
+  }
+  body {
+	background-image: url("http://www.planwallpaper.com/static/images/518164-backgrounds.jpg");
+  }
+}
+@media screen and (max-width: 700px) {
+  nav li {
+    display: inline; 
+  }
+  body {
+  	background-image: url("http://www.freelargeimages.com/wp-content/uploads/2016/06/Background-4.jpg");
+  }
+  h1 {
+  	position: relative;
+  	text-align: center;
+  }
+}
+
+body {
+	font-family: 'Titillium Web', sans-serif;
+}
+
+p {
+	border: green dashed;
+	padding: 5px;
+	font-family: 'Titillium Web', sans-serif;
+}
